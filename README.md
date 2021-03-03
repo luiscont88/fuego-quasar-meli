@@ -9,7 +9,7 @@ A continuaciòn se exponen diferentes vistas de la arquitectura de software.
 
 A continuación, se definen los paquetes que tiene el componente de software, cada paquete es una capa de software en nuestro componente y agrupa un conjunto de clases con responsabilidades comunes:
 
-![Screenshot](https://raw.githubusercontent.com/luiscont88/fuego-quasar-meli/master/src/main/resources/img/architecture-PackageView.png?token=ANAHO4BMW7IFVOXF4VIB4ADAH3ZCM)
+![Screenshot](https://raw.githubusercontent.com/luiscont88/fuego-quasar-meli/master/src/main/resources/img/architecture-PackageView.png)
 
 * controller: Todos las clases que reciben peticiones HTTP a los end-point defindos.
 * services: Todas las clases con lógica de negocio para Localizar nave y construir mensaje.
