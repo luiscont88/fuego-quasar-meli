@@ -23,7 +23,7 @@ La comunicación entre paquetes es unidireccional y solo con la capa siguiente i
 
 El diagrama de clases expone las clases necesarias para representar el negocio, los servicios con lógica y reglas de negocio y Controladores para atender la petición HTTP a los end-points.
 
-![Screenshot](https://raw.githubusercontent.com/luiscont88/fuego-quasar-meli/master/src/main/resources/img/architecture-ClassView.png?token=ANAHO4DUVOHXOC34C2IDYPTAH3Y3E)
+![Screenshot](/src/main/resources/img/architecture-ClassView.png)
 
 Seguimos los principios de [SOLID](https://en.wikipedia.org/wiki/SOLID) de programación orientada a objectos para: 
 
@@ -55,7 +55,7 @@ Grupos de seguridad: el grupo de seguridad es como un firewall para su instancia
 
 Arquitectura Amazon Elastic Beanstalk
 
-![Screenshot](https://raw.githubusercontent.com/luiscont88/fuego-quasar-meli/master/src/main/resources/img/ElasticBeanstalkArchitecture.png?token=ANAHO4HJBZOSVJTNYXBH25LAH3YZW)
+![Screenshot](/src/main/resources/img/ElasticBeanstalkArchitecture.png)
 
 ## Ejecución
 
@@ -66,10 +66,10 @@ http://quasarfiremelitest-env.eba-ygihpkhc.us-east-1.elasticbeanstalk.com/api/v1
 Las pruebas se realizaron con insomnia rest.
 
 POST TOPSECRET
-![Screenshot](https://raw.githubusercontent.com/luiscont88/fuego-quasar-meli/master/src/main/resources/img/TestApi01.png?token=ANAHO4DZ65EADYSNGCAIFQDAH3ZYI)
+![Screenshot](/src/main/resources/img/TestApi01.png)
 
 POST TOPSECRET SPLIT
-![Screenshot](https://raw.githubusercontent.com/luiscont88/fuego-quasar-meli/master/src/main/resources/img/TestApi02.png?token=ANAHO4EXNOJQ34J5SPDCGXTAH3Z5A)
+![Screenshot](/src/main/resources/img/TestApi02.png)
 
 GET TOPSECRET SPLIT
-![Screenshot](https://raw.githubusercontent.com/luiscont88/fuego-quasar-meli/master/src/main/resources/img/TestApi03.png?token=ANAHO4AZCSQNYEJHFW666TLAH3Z5S)
+![Screenshot](/src/main/resources/img/TestApi03.png)
